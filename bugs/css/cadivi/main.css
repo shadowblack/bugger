@@ -1,0 +1,694 @@
+html,body{
+	height: 100%;	
+	overflow: hidden;	
+	
+}
+html{
+	min-width:600px;
+	overflow-x:auto; 
+}
+#admin_container{
+	height:100%;		
+	position: relative;	
+}
+#admin_header{
+	height: 185px;
+	left:0px;
+	right:0px;	
+	position: absolute;	
+}
+ #include_content {  	
+	top:185px;	
+	bottom:50px;
+	overflow-y:auto; 
+	overflow-x:hidden; 
+	position: absolute;
+	left:0px;
+	right:0px;
+	margin-top: 10px;
+	/*padding-top: 10px;*/
+}
+#admin_footer {	
+	height:40px;
+	clear:both;	
+	color: #ccc;
+	bottom:0px;
+	position: absolute;
+}
+#espacio_include_content_1{
+	/*height:270px;
+	border: 1px solid blue;*/
+}
+#admin_container ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input
+{
+	margin: 0px;
+	padding: 0px;	
+}
+
+#admin_container a img,:link img,:visited img {
+	border: none;
+}
+
+#admin_container a:link,#admin_container a:visited {
+	text-decoration: none;
+}
+
+#admin_container a:hover {
+	text-decoration: underline;
+}
+.logear{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	width:40%;	
+	background-color:#E9ECF1;
+	border:1px solid #3B5984;
+	padding: 10px 50px 10px 50px;
+	-webkit-border-radius: 10px;    
+    border-radius: 10px;
+}
+.centrar{
+	text-align: center;	
+}
+body{
+	margin: 0;
+	padding-left : 10px;
+	padding-right: 10px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	background-color: #fff;	
+}
+body #admin_container td {
+	margin: 0;
+	padding-right: 10px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	/*background-color: #fff;*/
+}
+
+#admin_header h2.layout_title{
+	margin-top:5px;
+	background: #3B5984;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	height: 25px;
+	padding-top: 3px;
+	margin-bottom: 5px;
+}
+#admin_container p {
+	margin-bottom: 5px;
+}
+
+#admin_container #admin_bar {
+	margin-top: 8px;
+	position: absolute;
+	right: 20px;
+	width: 250px;
+}
+
+#admin_container #admin_content {
+	margin-right: 270px;
+}
+
+#admin_container h1 {
+	margin: 8px 0;
+	padding: 3px;
+	padding-left: 0px;
+	color: #555;
+	font-family: "Trebuchet MS", Arial, Verdana, sans-serif;
+	font-size: 20px;
+}
+#admin_container .title-style{
+	background: #3B5984;
+	font-weight:bolder;
+	font-size: 18px;
+	color: #fff; 
+	text-align: center; 
+	padding: 3px;
+	margin-top: 5px; 
+	letter-spacing: 8px;
+	white-space: 20px;
+}
+#admin_container fieldset h2 {
+	padding: 3px;
+	color: #fff;
+	background-color: #3B5984;
+	font-size: 12px;
+}
+
+#admin_container input,#admin_container textarea,#admin_container select
+	{
+	padding: 3px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	border: 1px solid #ddd;
+	vertical-align: middle;
+}
+
+#admin_container label {
+	display: block;
+	padding: 0 1em 3px 0;
+	float: left;
+	text-align: left;
+	width: 8em;
+	color: #666;
+	font-weight: normal !important;
+	width: 120px;
+}
+
+#admin_container label.required {
+	/*color: #333 !important;*/
+	/*font-weight: bold !important;*/
+	display: block;
+	padding: 0 1em 3px 0;
+	float: left;
+	text-align: left;
+	width: 8em;
+	color: #666;
+	font-weight: normal !important;
+	width: 120px;
+}
+
+#admin_container .save-ok {
+	margin-bottom: 10px;
+	border: 1px solid #73B65A;
+}
+
+#admin_container .save-ok h2 {
+	margin: 0 !important;
+	padding: 5px 20px 5px 25px;
+	font-size: 12px;
+	color: #fff;
+	background: #73B65A url(/bugger/bugs/images/cadivi/admin/ok.png) no-repeat 5px 2px;
+}
+
+#admin_container .main_text_updated{
+    /*color:#6666FF;*/
+    font-family: arial;    
+}
+
+#admin_container .form-row {
+	clear: both;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+#admin_container .form-row .content {
+	padding-left: 12em;
+}
+
+#admin_container .form-errors {
+	margin-bottom: 10px;
+	border: 1px solid #f33;
+	background-color: #ffc;
+	width: 50%; 
+	position: absolute; 
+	top: 40%; 
+	left: 25%;
+}
+.required{
+	color: red;	
+}
+#admin_container .form-errors h2 {
+	padding: 5px 20px 5px 25px;
+	font-size: 12px;
+	color: #fff;
+	background: #f33 url(/bugger/bugs/images/cadivi/admin/error.png) no-repeat 5px 2px;
+}
+
+#admin_container .form-errors dl dt{
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+#admin_container .form-error input,#admin_container .form-error select,#admin_container .form-error textarea
+	{
+	border: 1px solid #f33;
+}
+
+#admin_container fieldset {
+	margin-bottom: 3px;
+	border: 1px solid #ddd;
+	border-bottom: 0px;
+	background-color: #fff;
+}
+
+#admin_container fieldset.collapsed * {
+	display: none;
+}
+
+#admin_container fieldset.collapsed h2,#admin_container fieldset.collapsed
+	{
+	display: block !important;
+}
+
+#admin_container fieldset.collapsed .collapse-toggle {
+	display: inline !important;
+}
+
+#admin_container fieldset.collapse h2 a.collapse-toggle {
+	color: #ffc;
+}
+
+#admin_container fieldset.collapse h2 a.collapse-toggle:hover {
+	text-decoration: underline;
+}
+
+#admin_container .float-left {
+	float: left;
+}
+
+#admin_container .float-right {
+	float: right;
+}
+
+
+#admin_container div.leyenda {
+	float:left;
+	position: relative;
+	margin: 10px 10px;
+}
+
+#admin_container div.leyenda .div {
+	margin-left: 10px;
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+	padding-left: 21px;
+	
+}
+
+#admin_container div.leyenda div.estilo1  {
+	float:left;
+	margin-left: 10px;
+	margin-right: 05px;
+	width: 15px;
+	height: 15px;
+	border: dotted 1px #999999;
+}
+
+#admin_container div.leyenda div.estilo2  {
+	float:left;
+}
+/*prueba con divs*/
+
+#admin_container ul.admin_td_actions {
+	list-style-type: none;
+}
+
+#admin_container ul.admin_td_actions li {
+	list-style-type: none;
+	border-right: none;
+	display: inline;
+}
+
+#admin_container ul.admin_actions {
+	margin: 10px 0;
+	list-style-type: none;
+	text-align: right;
+}
+
+#admin_container ul.admin_actions2 {
+	float:left;
+	margin:10px 10px 10px 0;
+	list-style-type: none;
+	text-align: left;
+
+	
+}
+
+#admin_container ul.admin_actions a {
+	color: #333;
+}
+
+#admin_container ul.admin_actions2 a {
+	color: #333;
+}
+
+#admin_container ul.admin_actions li {
+	list-style-type: none;
+	display: inline;
+}
+
+#admin_container ul.admin_actions2 li {
+	list-style-type: none;
+	display: inline;
+}
+
+
+#admin_container ul.admin_actions input {
+	padding: 3px 3px 3px 20px;
+	color: #000;
+	font-weight: normal !important;
+	font-size: 12px;
+	font-family: Verdana, Tahoma, Arial;
+	border: 1px solid #999;
+	border-right: 4px solid #999;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_create {
+	background: url(/bugger/bugs/images/cadivi/admin/add.png) no-repeat 3px 2px;
+	border-right: 4px solid #73B65A !important;
+	cursor: pointer;
+	padding-left: 18px;
+}
+
+#admin_container .admin_action_next {
+	background: url(/bugger/bugs/images/cadivi/admin/next.png) no-repeat 3px 2px;
+	border-right: 4px solid #72a1df !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_previous {
+	background: url(/bugger/bugs/images/cadivi/admin/previous.png) no-repeat 3px 2px;
+	border-left: 4px solid #72a1df !important;
+	border-right: 1px solid #999 !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_email {
+	background: url(/bugger/bugs/images/cadivi/admin/email.png) no-repeat 3px 2px;
+	border-right: 4px solid #66f !important;
+}
+
+#admin_container .admin_action_pdf {
+	background: url(/bugger/bugs/images/cadivi/admin/pdf.png) no-repeat 3px 2px;
+	border-right: 4px solid #E75C58 !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_save {
+	background: url(/bugger/bugs/images/cadivi//admin/save.png) no-repeat 3px 2px;
+	border-right: 4px solid #73B65A !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_save_and_add {
+	background: url(/bugger/bugs/images/cadivi/admin/save.png) no-repeat 3px 2px;
+	border-right: 4px solid #73B65A !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_delete {
+	background: url(/bugger/bugs/images/cadivi/admin/delete.png) no-repeat 3px 2px;
+	border-right: 4px solid #E75C58 !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_cancel {
+	background: url(/bugger/bugs/images/cadivi/admin/cancel.png) no-repeat 3px 2px;
+	border-right: 4px solid #E75C58 !important;
+	cursor: pointer;
+}
+#admin_container .admin_action_cancel_message{
+	background: url(/bugger/bugs/images/cadivi/admin/cancel.png) no-repeat 3px 2px;
+	border-right: 4px solid #E75C58 !important;
+	cursor: pointer;
+	background: #fff;
+	width: 100px;
+	float: right;
+	margin-bottom: 3px;
+	margin-right:3px;
+	font-size: 12px;
+}
+
+#admin_container .admin_action_filter {
+	background: url(/bugger/bugs/images/cadivi/admin/filter.png) no-repeat 3px 2px;
+	border-right: 4px solid #66f !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_pdf {
+	background: url(/bugger/bugs/images/cadivi/admin/pdf.png) no-repeat 3px 2px;
+	border-right: 4px solid #66f !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_reset_filter {
+	background: url(/bugger/bugs/images/cadivi/admin/reset.png) no-repeat 3px 2px;
+	border-right: 4px solid #E75C58 !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_reset_filter:hover {
+	background: url(/bugger/bugs/images/cadivi/admin/reset.png) no-repeat 3px 3px;
+	border-right: 4px solid #E75C58 !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_reset_filter:active {
+	background: url(/bugger/bugs/images/cadivi/admin/reset.png) no-repeat 3px 4px;
+	border-right: 4px solid #E75C58 !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_list {
+	background: url(/bugger/bugs/images/cadivi/admin/list.png) no-repeat 3px 2px;
+	border-right: 4px solid #66f !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_reassign {
+	background: url(/bugger/bugs/images/cadivi/business/reassign.gif) no-repeat 3px 2px;
+	border-right: 4px solid #66f !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_removal {
+	background: url(/bugger/bugs/images/cadivi/business/removal.png) no-repeat 3px 2px;
+	border-right: 4px solid #E75C58 !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_change_port {
+	background: url(/bugger/bugs/images/cadivi/business/change.png) no-repeat 3px 2px;
+	border-right: 4px solid #73B65A !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_free_suspension {
+	background: url(/bugger/bugs/images/cadivi/debug/info.png) no-repeat 3px 2px;
+	border-right: 4px solid #73B65A !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_suspend {
+	background: url(/bugger/bugs/images/cadivi/debug/error.png) no-repeat 3px 2px;
+	border-right: 4px solid #E75C58 !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_transfer_by_analyst {
+	background: url(/bugger/bugs/images/cadivi/business/transfer_1.png) no-repeat 3px 2px;
+	border-right: 4px solid #3B5984 !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_transfer_by_warehouse {
+	background: url(/bugger/bugs/images/cadivi/business/transfer_2.png) no-repeat 3px 2px;
+	border-right: 4px solid #3B5984 !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_exchange_all {
+	background: url(/bugger/bugs/images/cadivi/business/transfer_grey.png) no-repeat 3px 2px;
+	border-right: 4px solid #3B5984 !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_transfer_several {
+	background: url(/bugger/bugs/images/cadivi/business/transfer_green.png) no-repeat 3px 2px;
+	border-right: 4px solid #73B65A !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_action_deliver {
+	background: url(/bugger/bugs/images/cadivi/business/deliver.png) no-repeat 3px 2px;
+	border-right: 4px solid #73B65A !important;
+	cursor: pointer;
+}
+#admin_container .admin_action_verify {
+	background: url(/bugger/bugs/images/cadivi/business/verif.png) no-repeat 3px 2px;
+	border-right: 4px solid #66f !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_default_action {
+	background-color: #fc6 !important;
+	font-weight: bold !important;
+	cursor: pointer;
+}
+
+#admin_container .admin_list {
+	width: 100%;
+	border: 1px solid #ddd;
+	border-bottom: 0px;
+	border-right: 0px;
+}
+
+#admin_container .admin_list th {
+	padding: 2px;
+	color: #fff;
+	background-color: #3B5984;
+	text-align: left;
+}
+
+#admin_container .admin_list .title_1 {
+	padding: 2px;
+	color: #000;
+	background-color: #e7e7e7;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+
+#admin_container .admin_list .title_2 {
+	padding: 2px;
+	color: #666;
+	background-color: #f7f7f7;
+	text-align: center;
+	border-bottom: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-top: 1px solid #cccccc;
+}
+
+#admin_container .admin_list th a {
+	color: #fff;
+}
+
+#admin_container .admin_list td {
+	padding: 3px;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+#admin_container .admin_filters li {
+	list-style-type: none;
+}
+
+#admin_container .admin_row_0 td {
+
+}
+
+#admin_container .admin_row_1 td {
+	background-color: #E6EAEF;
+}
+
+#admin_container .admin_edit_help {
+	color: #aaa;
+	
+}
+
+#admin_container .admin_message {
+	color: #000;
+}
+
+#admin_container .mceEditor td {
+	padding: 0px;
+}
+
+select.admin_multiple,select.admin_multiple-selected {
+	width: 12em;
+}
+
+ul.admin_checklist li {
+	list-style: none;
+	line-height: 1.5em;
+}
+
+div#indicator {
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	left: 10px;
+	top: 180px;
+	z-index: 900;
+	background: url(/bugger/bugs/images/cadivi/indicator.gif) no-repeat 0 0;
+}
+
+#admin_container .admin_filters .form-row .content input[type="text"],#admin_container .admin_filters .form-row .content select
+	{
+	max-width: 95%;
+}
+
+#admin_content input[type="image"] {
+	border: 0px;
+}
+
+#admin_content img {
+	vertical-align: middle;
+}
+
+#admin_container .readonly_text {
+	background-color: #E6EAEF;
+	color: #000;
+}
+
+#admin_container .readonly_number {
+	background-color: #E6EAEF;
+	text-align: right;
+	color: #000;
+}
+
+#admin_container .number {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.title_1 {
+	background-color: #f7f7f7;
+}
+
+.title_2 {
+	background-color: #f0f0f0;
+}
+
+#admin_container .saldos_distintos {
+	background-color: #FFF9A8;
+}
+
+#admin_container .es_productiva {
+	background-color: #D5D5FF;
+}
+
+#admin_container .productiva_distintos {
+	background-color: #FFD5D5;
+
+#ajax_msj {
+	position: absolute;
+	top: 47%;
+	left: 47%;
+	text-align: center;
+	vertical-align: middle;
+	visibility: hidden;
+	z-index: 0;
+	background: #fff;
+	background-image: url("/bugger/bugs/images/cadivi/indicator.gif");
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 16px;
+}
+
+#black_back{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: #000;
+	z-index: 5000;
+	opacity:0.4;
+	filter:alpha(opacity=40)
+}
+.nopadding_menu{
+	padding:0px	!important;
+}
+.background_menu{
+	background-color:red;
+}
