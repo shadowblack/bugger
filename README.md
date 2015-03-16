@@ -12,3 +12,5 @@ pero completamente funcional.
 Pueden registrar, buscar, categorizar errorer por proyecto.
 
 Esta aplicacion la realice desde mi casa para mas adelante proponerlo donde trabajaba (CADIVI) pero por razones de tiempo no lo aprobaron , por ente es normal que salgan iconos referentes a CADIVI, pueden cambiarlo libremente a sus necesidades.
+
+Documentacion del uso de CRUGER: http://yiiframeworkenespanol.org/wiki/index.php?title=CrugeTutorial#Instalar_Cruge
