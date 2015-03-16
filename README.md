@@ -1,6 +1,6 @@
 # bugger 
 Bugger es una pequeña aplicación Web realizado por mi persona para registrar los errores de nuestros desarrollos, 
-es muy sencillo py abierto a futuras modificaciones.
+es muy sencillo y abierto a futuras modificaciones.
 
 Realizado bajo los lenguajes: php5
 Base de datos: PostGres, el sql se encuentra dentro del proyecto y se llama respaldo_all.sql, los usuarios se pueden contemplar
