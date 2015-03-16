@@ -11,5 +11,4 @@ pero completamente funcional.
 
 Pueden registrar, buscar, categorizar errorer por proyecto.
 
-Esta aplicacion la realice desde mi casa para mas adelante proponerlo donde trabajaba (CADIVI) , por ente es normal que salgan
-iconos de CADIVI, pueden cambiarlo libremente a sus necesidades.
+Esta aplicacion la realice desde mi casa para mas adelante proponerlo donde trabajaba (CADIVI) pero por razones de tiempo no lo aprobaron , por ente es normal que salgan iconos referentes a CADIVI, pueden cambiarlo libremente a sus necesidades.
