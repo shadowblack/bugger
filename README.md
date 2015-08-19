@@ -1,10 +1,10 @@
 # bugger 
 Bugger es una pequeña aplicación Web realizado por mi persona para registrar los errores de nuestros desarrollos, 
-es muy sencillo y abierto a futuras modificaciones.
+es muy sencillo y esta abierto a futuras modificaciones.
 
-Realizado bajo los lenguajes: php5
-Base de datos: PostGres, el sql se encuentra dentro del proyecto y se llama respaldo_all.sql, los usuarios se pueden contemplar
-en la base de datos.
+Realizado bajo los lenguajes: php5 y Javascript.
+
+Base de datos: PostGres, el sql se encuentra dentro del proyecto y se llama respaldo_all.sql.
 
 Bugger trabaja con Yi y Cruger para validacion de usuarios, por ahora el desarrollo esta digamos a un 95% 
 pero completamente funcional.
